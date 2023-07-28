@@ -1,0 +1,232 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');
+body{
+    color: white;
+    margin:0;
+    font-family: 'Roboto', sans-serif;
+    background-color: #487346;
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='200' height='200' viewBox='0 0 200 200'%3E%3Cg %3E%3Cpolygon fill='%234c8e43' points='100 57.1 64 93.1 71.5 100.6 100 72.1'/%3E%3Cpolygon fill='%236aac5f' points='100 57.1 100 72.1 128.6 100.6 136.1 93.1'/%3E%3Cpolygon fill='%234c8e43' points='100 163.2 100 178.2 170.7 107.5 170.8 92.4'/%3E%3Cpolygon fill='%236aac5f' points='100 163.2 29.2 92.5 29.2 107.5 100 178.2'/%3E%3Cpath fill='%2389CC7C' d='M100 21.8L29.2 92.5l70.7 70.7l70.7-70.7L100 21.8z M100 127.9L64.6 92.5L100 57.1l35.4 35.4L100 127.9z'/%3E%3Cpolygon fill='%23768c3a' points='0 157.1 0 172.1 28.6 200.6 36.1 193.1'/%3E%3Cpolygon fill='%2396ac58' points='70.7 200 70.8 192.4 63.2 200'/%3E%3Cpolygon fill='%23B6CC76' points='27.8 200 63.2 200 70.7 192.5 0 121.8 0 157.2 35.3 192.5'/%3E%3Cpolygon fill='%2396ac58' points='200 157.1 164 193.1 171.5 200.6 200 172.1'/%3E%3Cpolygon fill='%23768c3a' points='136.7 200 129.2 192.5 129.2 200'/%3E%3Cpolygon fill='%23B6CC76' points='172.1 200 164.6 192.5 200 157.1 200 157.2 200 121.8 200 121.8 129.2 192.5 136.7 200'/%3E%3Cpolygon fill='%23768c3a' points='129.2 0 129.2 7.5 200 78.2 200 63.2 136.7 0'/%3E%3Cpolygon fill='%23B6CC76' points='200 27.8 200 27.9 172.1 0 136.7 0 200 63.2 200 63.2'/%3E%3Cpolygon fill='%2396ac58' points='63.2 0 0 63.2 0 78.2 70.7 7.5 70.7 0'/%3E%3Cpolygon fill='%23B6CC76' points='0 63.2 63.2 0 27.8 0 0 27.8'/%3E%3C/g%3E%3C/svg%3E");
+}
+.logoandname{
+  display: flex;
+}
+.le{
+  margin-left: 25px;
+}
+header {
+    position: sticky;
+    top:0;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 500;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #487346;
+    color: white;
+    padding: 20px;
+    border-bottom: 3px solid #4e2006;
+    z-index:10;
+  }
+.welcomesmall{
+margin-top: 30px;
+}
+h2{
+  text-align: center;
+  font-size: 52px;
+  font-family: 'Raleway', sans-serif;
+  color: white;
+}
+  .logo img{
+    height: 80px;
+    margin-left: 15px;
+  }
+  
+  nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+  }
+  
+  nav li {
+    margin-left: 20px;
+  }
+  
+  nav a {
+    padding-bottom: 7px;
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+    line-height: 80px;
+    border-bottom: 3px solid transparent;
+    transition: color 0.5s, border-color 0.5s;
+  }
+  .right-button{
+    margin-right: 70px;
+  }
+  
+  nav a:hover {
+    color: #4e2006;
+    border-color: #4e2006;
+    transition: color 0.5s, border-color 0.5s;
+  }
+  .main-container{
+    display:flex;
+    justify-content: center;
+    margin-top: 70px;
+    border: 10px solid #4e2006;
+    border-radius: 20px;
+    background-color: #487346;
+  }
+  .lp-house{
+    width:50%;
+  }
+  .lp-house-img{
+    width:100%;
+    height: 100%;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 9px;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 9px;
+  }
+  .welcome{
+    color: white;
+    font-weight: 500;
+    width: 50%;
+    font-size: 32px;
+    margin-top: 30px;
+    padding: 30px;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 9px;
+  }
+  .our-advantages{
+    display:flex;
+    justify-content: center;
+    margin-top: 70px;
+    border: 10px solid #4e2006;
+    border-radius: 20px;
+    background-color: #487346;
+    color: white;
+    font-weight: 500;
+    font-size: 32px;
+  }
+  .about-us{
+    text-align: center;
+    margin-top: 70px;
+    border: 10px solid #4e2006;
+    border-radius: 20px;
+    background-color: #487346;
+    color: white;
+    font-weight: 500;
+    font-size: 32px;
+  }
+  footer {
+    margin-top: 155px;
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    border-top: 3px solid #4e2006;
+  }
+  
+  .footer-container {
+
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;  
+  }
+  
+  .footer-contacts {
+    text-align: center;
+    width: 30%;
+  }
+  
+  .copyright {
+    font-size: 14px;
+    opacity: 0.7;
+    text-align: center;
+    margin-top: 50px;
+  }
+  .social{
+    width: 20%;
+    text-align: center;
+  }
+.house{
+  display:flex;
+  justify-content: center;
+  margin-top: 70px;
+  border: 10px solid #4e2006;
+  border-radius: 20px;
+  background-color: #487346;
+}
+.description{
+  color: white;
+  font-weight: 500;
+  width: 50%;
+  font-size: 25px;
+  margin-top: 30px;
+  padding: 30px;
+  border-top-left-radius: 10px;
+  border-bottom-left-radius: 9px;
+}
+.description2{
+  color: white;
+  font-weight: 500;
+  width: 50%;
+  font-size: 25px;
+  margin-top: 30px;
+  padding: 30px;
+  border-top-right-radius: 10px;
+  border-bottom-right-radius: 9px;
+}
+.bg{
+  position: relative;
+  padding: 100px 0;
+}
+.bg > h2{
+  position: relative;
+  font-size: 44px;
+  text-align: center;
+  z-index: 2;
+}
+.video-bg{
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-bottom: 3px solid #4e2006;
+  z-index: 0;
+}
+.video-bg-opacity{
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.4);
+  z-index:1;
+}
+.photo-of-a-house{
+  width:50%;
+}
+.photo-of-a-house-img{
+    width:100%;
+    height: 100%;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 9px;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 9px;
+}
+.photo-of-a-house-img5{
+  width:100%;
+  height: 600px;
+  border-top-right-radius: 10px;
+  border-bottom-right-radius: 9px;
+  border-top-left-radius: 10px;
+  border-bottom-left-radius: 9px;
+}
+.photo-of-a-house5{
+  width:50%;
+  height: 600px;
+}
